@@ -22,6 +22,10 @@
             android:name=".views.addscore.AddScoreActivity"
             android:label="@string/title_activity_add_score"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".views.editprofile.EditProfileActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

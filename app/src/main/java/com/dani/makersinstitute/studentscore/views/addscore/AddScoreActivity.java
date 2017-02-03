@@ -84,7 +84,8 @@ public class AddScoreActivity extends AppCompatActivity {
 
     private boolean validateSubject() {
         if (mTextSubject.getText().toString().trim().isEmpty()) {
-            mTextLayoutSubject.setError(getString(R.string.addscore_error_subject));
+            mTextLayoutSubject.setError(getString(R.string.error_required,
+                    getString(R.string.addscore_subject)));
             requestFocus(mTextSubject);
             return false;
         } else {
@@ -96,7 +97,8 @@ public class AddScoreActivity extends AppCompatActivity {
 
     private boolean validateScore() {
         if (mTextScore.getText().toString().trim().isEmpty()) {
-            mTextLayoutScore.setError(getString(R.string.addscore_error_score));
+            mTextLayoutScore.setError(getString(R.string.error_required,
+                    getString(R.string.addscore_score)));
             requestFocus(mTextScore);
             return false;
         } else {
