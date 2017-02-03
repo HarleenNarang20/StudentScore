@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Student Score</string>
+    <string name="title_activity_add_score">Add Score</string>
+    <string name="title_activity_edit_score">Edit Score</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_add_score">Add Score</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_delete">Delete</string>
+
+    <string name="dialog_yes">YES</string>
+    <string name="dialog_no">NO</string>
+    <string name="dialog_confirm_message">Do you want to remove %1$s?</string>
+
+    <string name="myreport_average">Average Score</string>
+    <string name="myreport_empty">You have no Score&#8230;</string>
+    <string name="myreport_number_format">0.0</string>
+    <string name="myreport_score_low">C</string>
+    <string name="myreport_score_medium">B</string>
+    <string name="myreport_score_high">A</string>
+
+    <string name="addscore_subject">Subject</string>
+    <string name="addscore_score">Score</string>
+    <string name="addscore_error_subject">Subject is required!</string>
+    <string name="addscore_error_subject_duplicated">%1$s is already available</string>
+    <string name="addscore_error_score">Score is required!</string>
+    <string name="addscore_error_score_range">Score between 0 and 100</string>
+</resources>
